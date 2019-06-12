@@ -1,7 +1,4 @@
-import os
 from setuptools import setup
-
-CURDIR = os.path.abspath(os.path.dirname(__file__))
 
 
 setup(
@@ -11,9 +8,8 @@ setup(
     author='Zhang Yu',
     author_email='feiyuw@gmail.com',
     url='https://github.com/feiyuw/aes-sha1prng-py.git',
-    python_requires='>=2.7,>=3.5',
+    python_requires='>=3.5',
     install_requires=['pycryptodome'],
-    packages=[
-        'aes_sha1prng'],
+    packages=['aes_sha1prng'],
     platforms='any',
 )

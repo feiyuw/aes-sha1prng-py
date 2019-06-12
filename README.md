@@ -1,5 +1,7 @@
 AES encrypt/decrypt library with java SHA1PRNG algorithm for python3
 
+[![Build Status](https://travis-ci.org/feiyuw/aes-sha1prng-py.svg?branch=master)](https://travis-ci.org/feiyuw/aes-sha1prng-py)
+
 ## Example:
 
 ```python
